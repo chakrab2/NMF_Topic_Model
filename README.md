@@ -26,12 +26,12 @@ would become:
 Then, for each word and text combination, we compute how many times that word appears in that text divided by the number of times the word appears in all the texts. This gives us a measure of how frequently each word appears in each text, relative to how commonly used the word is across all the texts. So, we update our table: we divide the counts for the word <q>sun</q> by 2, which is the number of times the word <q>sun</q> appears total in all texts. (The rest of the table remains the same, as all other words appear just once.)
 </p>
 
-<img src="textGrid2.png" alt="text2" style="width:400px;">
+<img src="Blog/textGrid2.png" alt="text2" style="width:400px;">
 
 <p>
 The table we have just made is called the term frequency-inverse document frequency matrix (TF-IDF).This matrix has the texts and word frequencies, but what we really want is a matrix of texts and topics. So, we think of our TF-IDF matrix as holding <q>hidden</q> information about topics. To get at the <q>hidden</q> topic information, we break the TF-IDF matrix into a product of two matrices: one matrix will hold texts and topics, and the other matrix will hold topics and words.
 </p>
-<img src="matrixDecomposition.png" alt="NMF" style="width:400px;">
+<img src="Blog/matrixDecomposition.png" alt="NMF" style="width:400px;">
 
 <p>
 We break our TF-IDF matrix into a product of two matrices using a technique called Non-negative Matrix Factorization, or NMF.
@@ -41,7 +41,7 @@ We break our TF-IDF matrix into a product of two matrices using a technique call
 Here is an example of our topic modeling in action, using examples from the Paralign community and visualized with <a href="https://pyldavis.readthedocs.io/en/latest/readme.html"> pyLDAvis.</a>
 </p>
 
-<iframe src="Paralign_Blog/Top7uni.html" width="2000" height="800"></iframe> 
+<iframe src="Blog/Top7uni.html" width="2000" height="800"></iframe> 
 <p>
 The top topics are:  'life', 'good', 'love', 'feel', 'day'
 </p>
@@ -56,7 +56,7 @@ most prevalent words and topics within the <q>sad</q> mood include <q>tired</q>,
 while for <q>happy</q> moods, we find words like <q>happy</q>, and <q>good</q>.
 </p>
 
-<img src="textGrid4.png" alt="NMF" style="width:400px;">
+<img src="Blog/textGrid4.png" alt="NMF" style="width:400px;">
 
 <h2>Bigrams</h2>
 <p>
