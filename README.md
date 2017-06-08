@@ -20,7 +20,7 @@ So, how do we break text into its topics? We start simply: we count the words th
 <p>
 would become:
 </p>
-<img src="Paralign_Blog/textGrid1.png" alt="text1" style="width:400px;display:block;">
+<img src="Blog/textGrid1.png" alt="text1" style="width:400px;display:block;">
 
 <p>
 Then, for each word and text combination, we compute how many times that word appears in that text divided by the number of times the word appears in all the texts. This gives us a measure of how frequently each word appears in each text, relative to how commonly used the word is across all the texts. So, we update our table: we divide the counts for the word <q>sun</q> by 2, which is the number of times the word <q>sun</q> appears total in all texts. (The rest of the table remains the same, as all other words appear just once.)
