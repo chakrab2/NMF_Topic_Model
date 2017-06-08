@@ -12,7 +12,7 @@ print 'Fetching data.....'
 def prod_mongo():
 # production MongoDB connect
     global db
-    client = MongoClient('mongodb://paraprod:paraprod@mmsprod-0.paraprod1.7388.mongodbdns.com:27000/paralign')
+    client = MongoClient(client_path)
     db  = client.paralign
 
 prod_mongo()    
