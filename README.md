@@ -38,7 +38,7 @@ We break our TF-IDF matrix into a product of two matrices using a technique call
 </p>
 
 <p>
-Here is an example of our topic modeling in action, using examples from the Paralign community and visualized with <a href="https://pyldavis.readthedocs.io/en/latest/readme.html"> pyLDAvis.</a>
+<a href = "https://chakrab2.github.io">Here</a> is an example of our topic modeling in action, using examples from the Paralign community and visualized with <a href="https://pyldavis.readthedocs.io/en/latest/readme.html"> pyLDAvis.</a>
 </p>
 
 <iframe src="Blog/Top7uni.html" width="2000" height="800"></iframe> 
