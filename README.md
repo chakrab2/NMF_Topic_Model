@@ -3,7 +3,7 @@
 <body>
 
 <h2>Extracting topics in Paralign users' texts</h2>
-<q> Shiladitya Chakraborty and Erin Craig </q>
+<h3> by Shiladitya Chakraborty and Erin Craig </h3>
 <p>
 Every day, Paralign community members connect with one another by sharing what&rsquo;s on their mind. So we wondered: as a whole, what does the Paralign community talk about?
 
