@@ -36,7 +36,7 @@ mysql_sw = [word.replace("\'", "") for word in mysql_sw]
 def run_NMF(docs,vect,model):#,**kwargs):
     
     """Create Prepared Data from sklearn's vectorizer and Latent Dirichlet
-    Application
+    Application-
     
     Parameters
     ----------
